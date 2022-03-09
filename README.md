@@ -6,74 +6,56 @@ Express Nodejs + Mysql with Cors
 1. Configure `.env` file to your own db settings:
 
 ```
-
 DB_HOST=""
 DB_USER=""
 DB_PASSWORD=""
 DB_NAME=""
-
 ```
 2. Open command prompt window and run the following commands:
 
 ```
-
 npm install
-
 ```
 
 ```
-
 npm run dev
-
 ```
 
 3. Use a postman to test the following endpoints:
 
 ```
-
 [POST] http://localhost:4000/api/authenticate
-
 ```
 
-### Body Request
+### Example Body Request
 
 ```json
-
-
 {
     "username": "admin",
     "password": "password123"
 }
-
 ```
 
 More Example request:
 
 ```json
-
-
 {
     "username": "testuser",
     "password": "123456"
 }
-
 ```
 
 ```json
-
-
 {
     "username": "testuser",
     "password": "123456"
 }
-
 ```
 
 
-### Body Response
+### Example Body Response
 
 ```json
-
 {
     "message": "success",
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlcklkIjoyLCJpYXQiOjE2NDY4MzE5MTEsImV4cCI6MTY0NjkxODMxMX0.x-fa5eVvA26exIKRXWVX13s-Un1DZSYwwuIA-dTDsEg",
@@ -86,14 +68,10 @@ More Example request:
         "created_at": "2022-03-09T12:53:14.000Z"
     }
 }
-
-
 ```
 
 ```
-
 [GET] http://localhost:4000/api/welcome
-
 ```
 
 
@@ -103,9 +81,7 @@ Copy & Paste the following Token on authenticate api and use it on postman `Auth
 
 
 ```
-
 [Token required]
-
 ```
 
 
@@ -113,7 +89,5 @@ Copy & Paste the following Token on authenticate api and use it on postman `Auth
 
 
 ```
-
 "Welcome response..."
-
 ```
