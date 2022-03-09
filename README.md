@@ -3,7 +3,9 @@ Express Nodejs + Mysql with Cors
 
 ## Instructions
 
-1. Configure `.env` file to your own db settings:
+1. Import `Database/nodejs_auth_jwt.sql` on Mysql
+
+2. Configure `.env` file to your own DB settings:
 
 ```
 DB_HOST=""
@@ -11,7 +13,7 @@ DB_USER=""
 DB_PASSWORD=""
 DB_NAME=""
 ```
-2. Open command prompt window and run the following commands:
+3. Open command prompt window and run the following commands:
 
 ```
 npm install
@@ -21,7 +23,7 @@ npm install
 npm run dev
 ```
 
-3. Use a postman to test the following endpoints:
+4. Use a postman to test the following endpoints:
 
 ```
 [POST] http://localhost:4000/api/authenticate
