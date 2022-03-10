@@ -100,7 +100,7 @@ Copy & Paste the following Token on authenticate api and use it on postman `Auth
 ```
 npm test
 ```
-![Screenshot](Screenshot/screenshot.PNG)
+![Screenshot](Screenshots/screenshot.PNG)
 
 
 
@@ -109,9 +109,9 @@ npm test
 
 ## Postman test screenshots:
 
-![Screenshot](Screenshot/screenshot_postman1.PNG)
+![Screenshot](Screenshots/screenshot_postman1.PNG)
 
-![Screenshot](Screenshot/screenshot_postman.PNG)
+![Screenshot](Screenshots/screenshot_postman.PNG)
 
 
 End
