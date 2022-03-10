@@ -17,6 +17,6 @@ app.use(cors()); // enable cors
 
 app.use("/api", router);
 
-app.listen(PORT, () => console.log("Server running on port " + PORT));
+module.exports = app.listen(PORT, () => console.log("Server running on port " + PORT));
 
 

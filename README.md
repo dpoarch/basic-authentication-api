@@ -93,3 +93,26 @@ Copy & Paste the following Token on authenticate api and use it on postman `Auth
 ```
 "Welcome response..."
 ```
+
+
+6. For Automated testing just run the following command:
+
+```
+npm test
+```
+![Screenshot](Screenshot/screenshot.PNG)
+
+
+
+
+
+
+## Postman test screenshots:
+
+![Screenshot](Screenshot/screenshot_postman1.PNG)
+
+![Screenshot](Screenshot/screenshot_postman.PNG)
+
+
+End
+
