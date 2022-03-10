@@ -9,7 +9,7 @@ chai.use(chaiHttp);
 describe("API ROUTES", () => {
 
 	 /*
-	 * Test the POST route
+	 * Test the POST Authentication route
 	 */
 
 	 describe("POST /api/authenticate", () => {
@@ -32,6 +32,10 @@ describe("API ROUTES", () => {
 	 	});
 	 });
 
+
+	 /*
+	 * Test the GET Welcome route
+	 */
 	 describe("GET /api/welcome", () => {
 	 	it("should return welcome message", (done) => {
 			const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9."+
